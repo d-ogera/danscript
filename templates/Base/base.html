@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en" class="light scroll-smooth" dir="ltr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Danscript - Innovative Tech Solutions</title>
+        <meta name="description" content="Danscript offers expert services in web development, mobile app development, health management systems, learning management systems, graphic design, and SEO. Turning ideas into solutions for your business.">
+        <meta name="keywords" content="Danscript, web development, mobile apps, health management systems, learning management systems, graphic design, SEO, tech solutions, innovative services">
+        <meta name="author" content="Danscript - Ogera Dan">
+        <meta name="website" content="https://danscript.co.ke">
+        <meta name="email" content="info@danscript.co.ke">
+        <meta name="version" content="1.0.0">
+    
+        <!-- favicon -->
+        <link href="/static/assets/images/favicon.ico" rel="shortcut icon">
+    
+        <!-- Css -->
+        <!-- External Libraries -->
+        <link href="/static/assets/libs/tobii/css/tobii.min.css" rel="stylesheet">
+        <link href="/static/assets/libs/tiny-slider/tiny-slider.css" rel="stylesheet">
+        <link href="/static/assets/libs/@mdi/font/css/materialdesignicons.min.css" rel="stylesheet" type="text/css">
+    
+        <!-- Main CSS -->
+        <link rel="stylesheet" href="/static/assets/css/tailwind.css">
+    </head>
+    
+    
+    <body class="font-libre_franklin text-base text-black dark:text-white bg-white dark:bg-slate-900">
+
+        {% block Navwhite %}
+        {% endblock Navwhite%}
+        
+
+        {% block Hero %}
+        {% endblock Hero%}
+
+<!-- Start About -->
+<section class="relative md:py-24 py-16">
+    <div class="container relative">
+        <div class="grid md:grid-cols-12 grid-cols-1 items-center gap-6">
+            <!-- Image Section -->
+            <div class="md:col-span-6">
+                <div class="lg:me-8">
+                    <div class="relative">
+                        <img src="/static/assets/images/about.jpg" class="rounded-full shadow dark:shadow-gray-700" alt="Danscript About Us">
+
+                        <div class="absolute top-1/2 -translate-y-1/2 start-0 end-0 mx-auto size-56 flex justify-center items-center bg-white dark:bg-slate-900 rounded-full shadow dark:shadow-gray-700">
+                            <div class="text-center">
+                                <span class="text-teal-500 text-2xl font-semibold mb-0 block"><span class="counter-value text-6xl font-semibold" data-target="5">5</span>+</span>
+                                <span class="font-semibold block mt-2">Years <br> Experience</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Content Section -->
+            <div class="md:col-span-6">
+                <div class="lg:ms-8">
+                    <h6 class="text-teal-500 text-sm font-semibold uppercase mb-2">Who Are We?</h6>
+                    <h3 class="font-semibold text-2xl leading-normal mb-4">We Transform Ideas into Solutions <br> for Businesses and Individuals.</h3>
+
+                    <p class="text-slate-400 max-w-xl mb-6">At Danscript, we specialize in crafting innovative solutions in web development, mobile app development, health and learning management systems, graphic design, and SEO. With over 5 years of experience and a diverse portfolio, we are committed to empowering businesses with tailored technology-driven strategies.</p>
+
+                    <a href="#services" class="h-10 px-6 tracking-wide inline-flex items-center justify-center font-medium rounded-md bg-teal-500 text-white">Explore Our Services <i class="mdi mdi-chevron-right align-middle ms-0.5"></i></a>
+                </div>
+            </div>
+        </div>
+    </div><!--end container-->
+</section><!--end section-->
+
+        <!-- End About -->
+
+        <!-- Start Feature -->
+<section class="relative md:py-24 py-16 bg-slate-50 dark:bg-slate-800" id="services">
+    <div class="container relative">
+        <div class="grid grid-cols-1 pb-6 text-center">
+            <h3 class="font-semibold text-2xl leading-normal mb-4">Our Services</h3>
+            <p class="text-slate-400 max-w-xl mx-auto">Danscript offers cutting-edge digital solutions to elevate your business, from web development to health systems and branding.</p>
+        </div><!--end grid-->
+
+        <div class="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-2 grid-cols-1 gap-6 mt-6">
+            <div class="group rounded-md shadow dark:shadow-gray-700 relative bg-white dark:bg-slate-900 p-6 overflow-hidden h-fit">
+                <div class="flex items-center justify-center size-14 bg-gradient-to-r from-transparent to-teal-500/10 text-teal-500 text-center rounded-full group-hover:bg-teal-500/10 duration-500">
+                    <i data-feather="code" class="size-6"></i>
+                </div>
+                <div class="content mt-6 relative z-1">
+                    <a href="" class="title text-lg font-semibold hover:text-teal-500">Web Development</a>
+                    <p class="text-slate-400 mt-3">Get responsive, modern, and functional websites tailored to your needs.</p>
+                    <div class="mt-6">
+                        <a href="" class="text-teal-500">Read More <i class="mdi mdi-chevron-right align-middle"></i></a>
+                    </div>
+                </div>
+            </div><!--end feature content-->
+
+            <div class="group rounded-md shadow dark:shadow-gray-700 relative bg-white dark:bg-slate-900 p-6 overflow-hidden h-fit">
+                <div class="flex items-center justify-center size-14 bg-gradient-to-r from-transparent to-teal-500/10 text-teal-500 text-center rounded-full group-hover:bg-teal-500/10 duration-500">
+                    <i data-feather="smartphone" class="size-6"></i>
+                </div>
+                <div class="content mt-6 relative z-1">
+                    <a href="" class="title text-lg font-semibold hover:text-teal-500">Mobile App Development</a>
+                    <p class="text-slate-400 mt-3">Transform your ideas into high-quality, user-friendly mobile applications.</p>
+                    <div class="mt-6">
+                        <a href="" class="text-teal-500">Read More <i class="mdi mdi-chevron-right align-middle"></i></a>
+                    </div>
+                </div>
+            </div><!--end feature content-->
+
+            <div class="group rounded-md shadow dark:shadow-gray-700 relative bg-white dark:bg-slate-900 p-6 overflow-hidden h-fit">
+                <div class="flex items-center justify-center size-14 bg-gradient-to-r from-transparent to-teal-500/10 text-teal-500 text-center rounded-full group-hover:bg-teal-500/10 duration-500">
+                    <i data-feather="activity" class="size-6"></i>
+                </div>
+                <div class="content mt-6 relative z-1">
+                    <a href="" class="title text-lg font-semibold hover:text-teal-500">Health Management Systems</a>
+                    <p class="text-slate-400 mt-3">Streamline your healthcare operations with our robust systems.</p>
+                    <div class="mt-6">
+                        <a href="" class="text-teal-500">Read More <i class="mdi mdi-chevron-right align-middle"></i></a>
+                    </div>
+                </div>
+            </div><!--end feature content-->
+
+            <div class="group rounded-md shadow dark:shadow-gray-700 relative bg-white dark:bg-slate-900 p-6 overflow-hidden h-fit">
+                <div class="flex items-center justify-center size-14 bg-gradient-to-r from-transparent to-teal-500/10 text-teal-500 text-center rounded-full group-hover:bg-teal-500/10 duration-500">
+                    <i data-feather="layers" class="size-6"></i>
+                </div>
+                <div class="content mt-6 relative z-1">
+                    <a href="" class="title text-lg font-semibold hover:text-teal-500">Graphic Design</a>
+                    <p class="text-slate-400 mt-3">Captivating designs that enhance brand visibility and customer engagement.</p>
+                    <div class="mt-6">
+                        <a href="" class="text-teal-500">Read More <i class="mdi mdi-chevron-right align-middle"></i></a>
+                    </div>
+                </div>
+            </div><!--end feature content-->
+
+            <div class="group rounded-md shadow dark:shadow-gray-700 relative bg-white dark:bg-slate-900 p-6 overflow-hidden h-fit">
+                <div class="flex items-center justify-center size-14 bg-gradient-to-r from-transparent to-teal-500/10 text-teal-500 text-center rounded-full group-hover:bg-teal-500/10 duration-500">
+                    <i data-feather="target" class="size-6"></i>
+                </div>
+                <div class="content mt-6 relative z-1">
+                    <a href="" class="title text-lg font-semibold hover:text-teal-500">SEO Optimization</a>
+                    <p class="text-slate-400 mt-3">Boost your online presence and ranking with expert SEO services.</p>
+                    <div class="mt-6">
+                        <a href="" class="text-teal-500">Read More <i class="mdi mdi-chevron-right align-middle"></i></a>
+                    </div>
+                </div>
+            </div><!--end feature content-->
+
+            <div class="group rounded-md shadow dark:shadow-gray-700 relative bg-white dark:bg-slate-900 p-6 overflow-hidden h-fit">
+                <div class="flex items-center justify-center size-14 bg-gradient-to-r from-transparent to-teal-500/10 text-teal-500 text-center rounded-full group-hover:bg-teal-500/10 duration-500">
+                    <i data-feather="book" class="size-6"></i>
+                </div>
+                <div class="content mt-6 relative z-1">
+                    <a href="" class="title text-lg font-semibold hover:text-teal-500">Learning Management Systems</a>
+                    <p class="text-slate-400 mt-3">Enhance education with our innovative e-learning solutions.</p>
+                    <div class="mt-6">
+                        <a href="" class="text-teal-500">Read More <i class="mdi mdi-chevron-right align-middle"></i></a>
+                    </div>
+                </div>
+            </div><!--end feature content-->
+        </div><!--end grid-->
+    </div><!--end container-->
+</section><!--end section-->
+<!-- End Features -->
+
+
+<!-- Start Process -->
+<section class="relative md:py-24 py-16">
+    <div class="container relative">
+        <!-- Header Section -->
+        <div class="grid grid-cols-1 pb-6 text-center">
+            <h3 class="font-semibold text-3xl leading-snug mb-4 text-teal-500">Your Partner in Digital Success</h3>
+            <p class="text-slate-400 max-w-xl mx-auto">At Danscript, we transform your vision into measurable results through innovative strategies tailored for growth.</p>
+        </div>
+        <!-- Steps Section -->
+        <div class="grid md:grid-cols-12 grid-cols-1 mt-6 gap-6">
+            <!-- Steps List -->
+            <div class="lg:col-span-4 md:col-span-5">
+                <div class="sticky top-20">
+                    <ul class="p-6 bg-white dark:bg-slate-900 shadow dark:shadow-gray-700 rounded-md" id="myTab" data-tabs-toggle="#myTabContent" role="tablist">
+                        <li role="presentation">
+                            <button class="flex items-start gap-4 px-4 py-3 text-start rounded-md w-full hover:bg-teal-100 dark:hover:bg-teal-900 duration-300" id="step1-tab" data-tabs-target="#step1" type="button" role="tab" aria-controls="step1" aria-selected="true">
+                                <span class="text-xl font-bold text-teal-500">01</span>
+                                <div>
+                                    <h6 class="font-medium">SEO Audit</h6>
+                                    <p class="text-sm text-slate-400 mt-1">Analyze your online presence to craft a data-driven optimization plan.</p>
+                                </div>
+                            </button>
+                        </li>
+                        <li role="presentation">
+                            <button class="flex items-start gap-4 px-4 py-3 text-start rounded-md w-full mt-4 hover:bg-teal-100 dark:hover:bg-teal-900 duration-300" id="step2-tab" data-tabs-target="#step2" type="button" role="tab" aria-controls="step2" aria-selected="false">
+                                <span class="text-xl font-bold text-teal-500">02</span>
+                                <div>
+                                    <h6 class="font-medium">Project Execution</h6>
+                                    <p class="text-sm text-slate-400 mt-1">Delivering impactful solutions to achieve measurable success.</p>
+                                </div>
+                            </button>
+                        </li>
+                        <li role="presentation">
+                            <button class="flex items-start gap-4 px-4 py-3 text-start rounded-md w-full mt-4 hover:bg-teal-100 dark:hover:bg-teal-900 duration-300" id="step3-tab" data-tabs-target="#step3" type="button" role="tab" aria-controls="step3" aria-selected="false">
+                                <span class="text-xl font-bold text-teal-500">03</span>
+                                <div>
+                                    <h6 class="font-medium">Results & Reporting</h6>
+                                    <p class="text-sm text-slate-400 mt-1">Tracking performance and refining strategies for ongoing success.</p>
+                                </div>
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Details Content -->
+            <div class="lg:col-span-8 md:col-span-7">
+                <div id="myTabContent" class="p-6 bg-white dark:bg-slate-900 shadow dark:shadow-gray-700 rounded-md">
+                    <div class="" id="step1" role="tabpanel" aria-labelledby="step1-tab">
+                        <img src="/static/assets/images/about.jpg" class="rounded-md shadow dark:shadow-gray-700" alt="SEO Audit">
+                        <div class="mt-6">
+                            <h5 class="text-xl font-medium text-teal-500">SEO Audit</h5>
+                            <p class="text-slate-400 mt-4">We provide a thorough analysis of your website's performance, identifying key areas for improvement to enhance visibility and drive traffic.</p>
+                        </div>
+                    </div>
+                    <div class="hidden" id="step2" role="tabpanel" aria-labelledby="step2-tab">
+                        <img src="/static/assets/images/about.jpg" class="rounded-md shadow dark:shadow-gray-700" alt="Project Execution">
+                        <div class="mt-6">
+                            <h5 class="text-xl font-medium text-teal-500">Project Execution</h5>
+                            <p class="text-slate-400 mt-4">From ideation to implementation, our experts deliver creative and technically sound solutions that align with your business goals.</p>
+                        </div>
+                    </div>
+                    <div class="hidden" id="step3" role="tabpanel" aria-labelledby="step3-tab">
+                        <img src="/static/assets/images/about.jpg" class="rounded-md shadow dark:shadow-gray-700" alt="Results & Reporting">
+                        <div class="mt-6">
+                            <h5 class="text-xl font-medium text-teal-500">Results & Reporting</h5>
+                            <p class="text-slate-400 mt-4">With advanced reporting tools, we provide actionable insights into performance metrics to continually refine strategies and achieve optimal results.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End Process -->
+
+<section class="relative md:py-24 py-16 md:pt-0 pt-0">
+    <div class="container relative">
+        <div class="grid grid-cols-1 justify-center">
+            <!-- Media Section -->
+            <div class="relative z-1">
+                <div class="grid grid-cols-1 md:text-start text-center justify-center">
+                    <div class="relative">
+                        <img src="/static/assets/images/home.png" alt="Promotional Image" class="rounded-md shadow-lg">
+                        <div class="absolute bottom-2/4 translate-y-2/4 start-0 end-0 text-center">
+                            <a href="#!" data-type="youtube" data-id="S_CGed6E610"
+                                class="lightbox size-20 rounded-full shadow-lg dark:shadow-gray-700 inline-flex items-center justify-center bg-white dark:bg-slate-900 text-teal-500 hover:text-teal-600 dark:text-white hover:scale-110 transition duration-300">
+                                <i class="mdi mdi-play inline-flex items-center justify-center text-2xl"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Content Section -->
+                <div class="content md:mt-8">
+                    <div class="grid lg:grid-cols-12 grid-cols-1 md:text-start text-center justify-center">
+                        <div class="lg:col-start-2 lg:col-span-10">
+                            <div class="grid md:grid-cols-2 grid-cols-1 items-center">
+                                <!-- Left Text Section -->
+                                <div class="mt-8">
+                                    <div class="section-title text-md-start">
+                                        <h6 class="text-white/70 text-sm font-semibold uppercase tracking-wide">Exclusive Offer</h6>
+                                        <h3 class="font-semibold text-2xl leading-normal text-white mt-2">Start Your Journey <br> with Upcover Today</h3>
+                                    </div>
+                                </div>
+                                <!-- Right Text Section -->
+                                <div class="mt-8">
+                                    <div class="section-title text-md-start">
+                                        <p class="text-white/70 max-w-xl mx-auto mb-2">Experience unparalleled ease and functionality with Upcover. Join thousands of satisfied users already reaping the benefits.</p>
+                                        <a href="#!" class="text-white font-medium flex items-center hover:text-teal-300 transition duration-300">
+                                            Learn More <i class="mdi mdi-chevron-right align-middle ml-2"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Background Gradient -->
+    <div class="absolute bottom-0 start-0 end-0 sm:h-2/3 h-4/5 bg-gradient-to-b from-teal-400 to-teal-500"></div>
+</section>
+<!-- End -->
+
+
+        <!-- Start Portfolio -->
+<section class="relative md:py-24 py-16" id="portfolio">
+    <div class="container relative">
+        <div class="grid grid-cols-1 pb-6 text-center">
+            <h3 class="font-semibold text-2xl leading-normal mb-4">Portfolio</h3>
+            <p class="text-slate-400 max-w-xl mx-auto">Explore some of the remarkable projects I’ve worked on. Each showcases my expertise in web development, design, and functionality.</p>
+        </div><!--end grid-->
+
+        <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 mt-6 gap-6">
+            <!-- Medcrine Project -->
+            <div class="group relative overflow-hidden">
+                <div class="relative overflow-hidden rounded-md shadow dark:shadow-gray-800">
+                    <img src="/static/assets/images/medcrine.png" class="group-hover:scale-110 duration-500" alt="Medcrine Website">
+                </div>
+
+                <div class="mt-6">
+                    <a href="https://www.medcrine.com" target="_blank" class="title text-lg font-semibold hover:text-teal-500 duration-500 ease-in-out">Medcrine Website</a>
+                    <p class="text-slate-400 mt-2">A nursing learning management system offering user, instructor, and admin functionalities for seamless education and interaction.</p>
+                </div>
+            </div><!--end content-->
+
+            <!-- Brispa International Project -->
+            <div class="group relative overflow-hidden">
+                <div class="relative overflow-hidden rounded-md shadow dark:shadow-gray-800">
+                    <img src="/static/assets/images/brispa.png" class="group-hover:scale-110 duration-500" alt="Brispa International">
+                </div>
+
+                <div class="mt-6">
+                    <a href="https://brispainternational.com/" target="_blank" class="title text-lg font-semibold hover:text-teal-500 duration-500 ease-in-out">Brispa International</a>
+                    <p class="text-slate-400 mt-2">An elegant and professional website tailored for Brispa International’s global outreach and services.</p>
+                </div>
+            </div><!--end content-->
+
+            <!-- Afiadata Project -->
+            <div class="group relative overflow-hidden">
+                <div class="relative overflow-hidden rounded-md shadow dark:shadow-gray-800">
+                    <img src="/static/assets/images/afiadata.png" class="group-hover:scale-110 duration-500" alt="Afiadata Website">
+                </div>
+
+                <div class="mt-6">
+                    <a href="https://afiadata.org/" target="_blank" class="title text-lg font-semibold hover:text-teal-500 duration-500 ease-in-out">Afiadata Website</a>
+                    <p class="text-slate-400 mt-2">A data-focused platform designed to improve information accessibility and analysis across various sectors.</p>
+                </div>
+            </div><!--end content-->
+
+            <!-- Ovalprime Care Project -->
+            <div class="group relative overflow-hidden">
+                <div class="relative overflow-hidden rounded-md shadow dark:shadow-gray-800">
+                    <img src="/static/assets/images/ovalprime.png" class="group-hover:scale-110 duration-500" alt="Ovalprime Care Website">
+                </div>
+
+                <div class="mt-6">
+                    <a href="https://ovalprimecare.co.ke/" target="_blank" class="title text-lg font-semibold hover:text-teal-500 duration-500 ease-in-out">Ovalprime Care</a>
+                    <p class="text-slate-400 mt-2">A healthcare management system that simplifies patient and service tracking for healthcare providers.</p>
+                </div>
+            </div><!--end content-->
+
+            <!-- Moran Open Data Project -->
+            <div class="group relative overflow-hidden">
+                <div class="relative overflow-hidden rounded-md shadow dark:shadow-gray-800">
+                    <img src="/static/assets/images/moran.png" class="group-hover:scale-110 duration-500" alt="Moran Open Data Website">
+                </div>
+
+                <div class="mt-6">
+                    <a href="https://www.moranopendata.com/" target="_blank" class="title text-lg font-semibold hover:text-teal-500 duration-500 ease-in-out">Moran Open Data</a>
+                    <p class="text-slate-400 mt-2">An open-data platform empowering users with easy access to comprehensive datasets.</p>
+                </div>
+            </div><!--end content-->
+
+            <!-- Universal Care for Africa Project -->
+            <div class="group relative overflow-hidden">
+                <div class="relative overflow-hidden rounded-md shadow dark:shadow-gray-800">
+                    <img src="/static/assets/images/ucaf.png" class="group-hover:scale-110 duration-500" alt="Universal Care for Africa Foundation">
+                </div>
+
+                <div class="mt-6">
+                    <a href="https://universalcareafrica.org/" target="_blank" class="title text-lg font-semibold hover:text-teal-500 duration-500 ease-in-out">Universal Care for Africa Foundation</a>
+                    <p class="text-slate-400 mt-2">A foundation website showcasing initiatives and support systems for African healthcare improvements.</p>
+                </div>
+            </div><!--end content-->
+        </div><!--end grid-->
+    </div><!--end container-->
+</section>
+<!-- End Portfolio -->
+
+<section class="relative lg:py-24 py-16 bg-slate-50 dark:bg-slate-800" id="contact">
+    <div class="container relative">
+        <div class="grid grid-cols-1 pb-6 text-center">
+            <h3 class="font-semibold text-2xl leading-normal mb-4">Get in Touch</h3>
+            <p class="text-slate-400 max-w-xl mx-auto">Feel free to reach out to me for any inquiries, questions, or feedback. I'd love to hear from you!</p>
+        </div><!--end grid-->
+
+        <div class="grid md:grid-cols-12 grid-cols-1 items-center gap-6">
+            <!-- Contact Illustration -->
+            <div class="lg:col-span-7 md:col-span-6">
+                <img src="/static/assets/images/contact.svg" alt="Contact Illustration">
+            </div>
+
+            <!-- Contact Form -->
+            <div class="lg:col-span-5 md:col-span-6">
+                <div class="lg:ms-5">
+                    <div class="bg-white dark:bg-slate-900 rounded-md shadow dark:shadow-gray-700 p-6">
+                        <form method="post" name="contactForm" id="contactForm" onsubmit="return validateForm()" action="">
+                            <p class="mb-0 text-red-500" id="error-msg"></p>
+                            <div id="simple-msg"></div>
+                            <div class="grid lg:grid-cols-12 grid-cols-1 gap-3">
+                                <!-- Name Field -->
+                                <div class="lg:col-span-6">
+                                    <label for="name" class="font-semibold">Your Name:</label>
+                                    <input name="name" id="name" type="text" class="mt-2 w-full py-2 px-3 h-10 bg-transparent dark:bg-slate-900 dark:text-slate-200 rounded outline-none border border-gray-100 dark:border-gray-800 focus:ring-0" placeholder="Name">
+                                </div>
+
+                                <!-- Email Field -->
+                                <div class="lg:col-span-6">
+                                    <label for="email" class="font-semibold">Your Email:</label>
+                                    <input name="email" id="email" type="email" class="mt-2 w-full py-2 px-3 h-10 bg-transparent dark:bg-slate-900 dark:text-slate-200 rounded outline-none border border-gray-100 dark:border-gray-800 focus:ring-0" placeholder="Email">
+                                </div>
+
+                                <!-- Subject Field -->
+                                <div class="lg:col-span-12">
+                                    <label for="subject" class="font-semibold">Your Question:</label>
+                                    <input name="subject" id="subject" class="mt-2 w-full py-2 px-3 h-10 bg-transparent dark:bg-slate-900 dark:text-slate-200 rounded outline-none border border-gray-100 dark:border-gray-800 focus:ring-0" placeholder="Subject">
+                                </div>
+
+                                <!-- Message Field -->
+                                <div class="lg:col-span-12">
+                                    <label for="comments" class="font-semibold">Your Comment:</label>
+                                    <textarea name="comments" id="comments" class="mt-2 w-full py-2 px-3 h-28 bg-transparent dark:bg-slate-900 dark:text-slate-200 rounded outline-none border border-gray-100 dark:border-gray-800 focus:ring-0" placeholder="Message"></textarea>
+                                </div>
+                            </div>
+
+                            <!-- Submit Button -->
+                            <button type="submit" id="submit" name="send" class="h-10 px-6 tracking-wide inline-flex items-center justify-center font-medium rounded-md bg-teal-500 text-white mt-2">
+                                Send Message
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><!--end container-->
+</section><!--end section-->
+
+<!-- JavaScript for Form Validation -->
+<script>
+    function validateForm() {
+        const name = document.getElementById('name').value.trim();
+        const email = document.getElementById('email').value.trim();
+        const subject = document.getElementById('subject').value.trim();
+        const comments = document.getElementById('comments').value.trim();
+        const errorMsg = document.getElementById('error-msg');
+
+        errorMsg.innerHTML = '';
+
+        if (name === '') {
+            errorMsg.innerHTML = 'Please enter your name.';
+            return false;
+        }
+
+        if (email === '') {
+            errorMsg.innerHTML = 'Please enter a valid email address.';
+            return false;
+        } else if (!isEmail(email)) {
+            errorMsg.innerHTML = 'You have entered an invalid email address.';
+            return false;
+        }
+
+        if (subject === '') {
+            errorMsg.innerHTML = 'Please enter the subject.';
+            return false;
+        }
+
+        if (comments === '') {
+            errorMsg.innerHTML = 'Please enter your message.';
+            return false;
+        }
+
+        return true;
+    }
+
+    function isEmail(email) {
+        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        return emailRegex.test(email);
+    }
+</script>
+
+
+<!-- Footer Start -->
+<footer class="footer bg-dark-footer relative text-gray-200 dark:text-gray-200">
+    <div class="py-[30px] px-0 border-t border-slate-800">
+        <div class="container relative text-center">
+            <div class="grid lg:grid-cols-12 md:grid-cols-3 grid-cols-1 items-center">
+                <!-- Logo -->
+                <div class="lg:col-span-3 md:text-start text-center">
+                    <a href="#" class="text-[22px] focus:outline-none">
+                        <img src="/static/assets/images/logo-light.png" class="mx-auto md:me-auto md:ms-0" alt="Danscript logo">
+                    </a>
+                </div>
+
+                <!-- Footer Text -->
+                <div class="lg:col-span-5 text-center mt-6 md:mt-0">
+                    <p class="mb-0">© <script>document.write(new Date().getFullYear())</script> Danscript. Crafted with <i class="mdi mdi-heart text-red-600"></i> by Danscript Team.</p>
+                </div>
+
+                <!-- Social Media Links -->
+                <ul class="lg:col-span-4 list-none md:text-end text-center mt-6 md:mt-0">
+                    <li class="inline">
+                        <a href="https://twitter.com/dannscript" target="_blank" class="size-8 inline-flex justify-center items-center border border-gray-800 rounded-md hover:border-teal-500 dark:hover:border-teal-500 hover:bg-teal-500 dark:hover:bg-teal-500" aria-label="Twitter">
+                            <i data-feather="twitter" class="size-4 align-middle"></i>
+                        </a>
+                    </li>
+                    <li class="inline">
+                        <a href="mailto:info@danscript.co.ke" class="size-8 inline-flex justify-center items-center border border-gray-800 rounded-md hover:border-teal-500 dark:hover:border-teal-500 hover:bg-teal-500 dark:hover:bg-teal-500" aria-label="Email">
+                            <i data-feather="mail" class="size-4 align-middle"></i>
+                        </a>
+                    </li>
+                    <li class="inline">
+                        <a href="https://www.instagram.com/danscript/" target="_blank" class="size-8 inline-flex justify-center items-center border border-gray-800 rounded-md hover:border-teal-500 dark:hover:border-teal-500 hover:bg-teal-500 dark:hover:bg-teal-500" aria-label="Instagram">
+                            <i data-feather="instagram" class="size-4 align-middle"></i>
+                        </a>
+                    </li>
+                    <li class="inline">
+                        <a href="http://linkedin.com/company/danscript" target="_blank" class="size-8 inline-flex justify-center items-center border border-gray-800 rounded-md hover:border-teal-500 dark:hover:border-teal-500 hover:bg-teal-500 dark:hover:bg-teal-500" aria-label="LinkedIn">
+                            <i data-feather="linkedin" class="size-4 align-middle"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div><!--end grid-->
+        </div><!--end container-->
+    </div>
+</footer><!--end footer-->
+
+
+        <!-- Back to top -->
+        <a href="#" onclick="topFunction()" id="back-to-top" class="back-to-top fixed hidden text-lg rounded-full z-10 bottom-5 right-5 size-9 text-center bg-teal-500 text-white leading-9"><i class="mdi mdi-arrow-up"></i></a>
+        <!-- Back to top -->
+
+        <!-- Switcher -->
+        <div class="fixed top-1/4 -right-1 z-3">
+            <span class="relative inline-block rotate-90">
+                <input type="checkbox" class="checkbox opacity-0 absolute" id="chk">
+                <label class="label bg-slate-900 dark:bg-white shadow dark:shadow-gray-800 cursor-pointer rounded-full flex justify-between items-center p-1 w-14 h-8" for="chk">
+                    <i data-feather="moon" class="w-[18px] h-[18px] text-yellow-500"></i>
+                    <i data-feather="sun" class="w-[18px] h-[18px] text-yellow-500"></i>
+                    <span class="ball bg-white dark:bg-slate-900 rounded-full absolute top-[2px] left-[2px] size-7"></span>
+                </label>
+            </span>
+        </div>
+        <!-- Switcher -->
+
+
+        <!-- JAVASCRIPTS -->
+        <script src="/static/assets/libs/feather-icons/feather.min.js"></script>
+        <script src="/static/assets/libs/gumshoejs/gumshoe.polyfills.min.js"></script>
+        <script src="/static/assets/libs/tobii/js/tobii.min.js"></script>
+        <script src="/static/assets/libs/tiny-slider/min/tiny-slider.js"></script>
+        <script src="/static/assets/js/plugins.init.js"></script>
+        <script src="/static/assets/js/app.js"></script>
+        <!-- JAVASCRIPTS -->
+    </body>
+</html>

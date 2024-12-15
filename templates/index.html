@@ -1,0 +1,74 @@
+{% extends "Base/base.html" %}
+
+{% block Navwhite %}
+
+<!-- Navbar Start -->
+<nav class="navbar" id="navbar">
+    <div class="container relative flex flex-wrap items-center justify-between">
+        <a class="navbar-brand md:me-8" href="{{ url_for(request.endpoint) }}">
+            <span class="inline-block dark:hidden">
+                <img src="/static/assets/images/logo-dark.png" class="l-dark" alt="Danscript Logo">
+                <img src="/static/assets/images/logo-light.png" class="l-light" alt="Danscript Logo">
+            </span>
+            <img src="/static/assets/images/logo-light.png" class="hidden dark:inline-block" alt="Danscript Logo">
+        </a>
+
+        <div class="nav-icons flex items-center lg_992:order-2 ms-auto md:ms-8">
+            <ul class="list-none menu-social mb-0">
+                <li class="inline">
+                    <a href="#contact" class="h-8 px-4 text-[12px] tracking-wider inline-flex items-center justify-center font-medium rounded-md bg-teal-500 text-white uppercase">Contact Us</a>
+                </li>
+            </ul>
+            <button data-collapse="menu-collapse" type="button" class="collapse-btn inline-flex items-center ms-2 text-dark dark:text-white lg_992:hidden">
+                <span class="sr-only">Navigation Menu</span>
+                <i class="mdi mdi-menu text-[24px]"></i>
+            </button>
+        </div>
+
+        <div class="navigation lg_992:order-1 lg_992:flex hidden ms-auto" id="menu-collapse">
+            <ul class="navbar-nav nav-light sidebar-nav" id="navbar-navlist">
+                <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!-- Navbar End -->
+
+{% endblock Navwhite %}
+
+{% block Hero %}
+
+<!-- Hero Section -->
+<section class="relative md:h-screen md:py-0 py-36 items-center overflow-hidden bg-gradient-to-t to-teal-600 via-teal-600/50 from-transparent">
+    <div class="container relative">
+        <div class="grid grid-cols-1 md:mt-48 mt-10 text-center">
+            <h4 class="font-bold lg:leading-normal leading-normal tracking-wide text-4xl lg:text-5xl capitalize text-white mb-5">
+                Transforming <br>your Ideas Into Reality
+            </h4>
+            <p class="text-white/70 text-lg max-w-xl mx-auto">
+                At Danscript, we provide cutting-edge solutions in web development, mobile apps, health systems, and more.
+            </p>
+
+            <div class="subcribe-form mt-6 mb-3">
+                <form class="relative max-w-xl mx-auto">
+                    <input type="email" id="emailid" name="email" class="py-4 pe-40 ps-6 w-full h-[50px] outline-none text-black dark:text-white rounded-full bg-white/60 dark:bg-slate-900/60 shadow dark:shadow-gray-800" placeholder="Your email address">
+                    <button type="submit" class="px-6 tracking-wide inline-flex items-center justify-center font-medium absolute top-[2px] end-[3px] h-[46px] bg-teal-500 text-white rounded-full">
+                        Get In Touch
+                    </button>
+                </form>
+            </div>
+
+            <span class="text-white font-medium">
+                Need a solution? Call us at <a href="tel:0790173296" class="text-white underline">0790173296</a> or <a href="#contact" class="text-white underline">contact us today</a>.
+            </span>
+
+
+        </div>
+    </div>
+</section>
+<!-- End Hero Section -->
+
+{% endblock Hero %}
