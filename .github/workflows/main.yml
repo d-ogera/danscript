@@ -1,0 +1,16 @@
+name: Push to cPanel
+on: push
+jobs:
+  FTP-Deploy-action:
+    name: FTP-Deploy-Action
+    runs-on: ubuntu-latest
+    steps:
+      - name: FTP-Deploy-Action
+        uses: actions/checkout@v3
+       
+      - name: synch files      
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+        with:
+          server: ftp.medcrine.com
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
